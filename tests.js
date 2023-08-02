@@ -13,3 +13,11 @@ describe('helloWorld', function() {
       expect(helloWorld()).not.toBe(undefined);
     });
 });
+
+//Unit test for the sayHello function
+describe('sayHello', function () {
+    //Our first red test: We need to now go write implementation to make this test turn green
+    it('should be a defined function', function () {
+       expect(typeof sayHello).toBe("function")
+    });
+});
